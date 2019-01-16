@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BoardController">
+   <children>
+      <Button fx:id="barrageButton" alignment="CENTER" layoutX="433.0" layoutY="322.0" mnemonicParsing="false" onAction="#barrageButtonClicked" prefHeight="112.0" prefWidth="179.0" text="ボタンを連打だ！" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="startButton" alignment="CENTER" layoutX="151.0" layoutY="321.0" mnemonicParsing="false" onAction="#gameStart" prefHeight="112.0" prefWidth="179.0" text="スタート" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="messageLabel" alignment="CENTER" layoutX="158.0" layoutY="157.0" prefHeight="17.0" prefWidth="264.0" text="連打ゲーム！！！" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
